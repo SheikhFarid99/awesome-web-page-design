@@ -125,12 +125,21 @@
 
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 580px) {
     section#plan .plan-section .container .card {
         grid-template-columns: repeat(1, 1fr) !important;
     }
     section#team-section .our-team .item .image {
         height: 230px !important;
+    }
+    
+}
+@media only screen and (max-width: 380px) {
+    .container{
+        width: 88% !important;
+    }
+    .container .contact_form-address{
+        padding: 0px 0px !important; 
     }
     
 }
