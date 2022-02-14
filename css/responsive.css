@@ -1,0 +1,133 @@
+@media only screen and (max-width: 1124px) {
+    section#team-section .our-team .item .image {
+        height: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .navbar .nav-container .left-side {
+        width: 100% !important;
+    }
+
+    .navbar .nav-container .menu-logo .menu {
+        display: block !important;
+    }
+
+    .navbar .nav-container .right-side.show {
+        right: 0px;
+    }
+
+    .navbar .nav-container .right-side {
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: rgba(43, 46, 46, 0.411);
+        width: 100% !important;
+        height: 100vh !important;
+        display: flex;
+        justify-content: flex-end;
+        right: -100%;
+        transition: all .5s;
+    }
+
+    .navbar .nav-container .right-side ul {
+        width: 250px !important;
+        display: flex;
+        justify-content: flex-start !important;
+        flex-direction: column;
+        height: 100vh !important;
+        background-color: rgba(12, 29, 83, 0.671);
+        padding: 15px 10px;
+        position: fixed;
+    }
+
+    .navbar .nav-container .right-side ul li.close {
+        display: block !important;
+    }
+
+    .navbar .nav-container .right-side ul li {
+        height: 30px !important;
+        color: #fff !important;
+    }
+    .navbar .nav-container .right-side ul li a{
+        color: #fff !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    section#about .about {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-gap: 30px !important;
+    }
+
+    section#service-section .service .services-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-row-gap: 15px !important;
+    }
+
+    section#team-section .our-team .team-items {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    section#team-section .our-team .item .image {
+        height: 300px !important;
+    }
+    section#plan .plan-section .container .card {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    section#contact .contact-section .contact_form-address {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    section#about .about {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-gap: 30px !important;
+    }
+
+    section#service-section .service .services-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-row-gap: 15px !important;
+    }
+
+    section#team-section .our-team .team-items {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    section#team-section .our-team .item .image {
+        height: 380px !important;
+    }
+    section#plan .plan-section .container .card {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    section#contact .contact-section .contact_form-address {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    section#testimonials .testi-section .position-section {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    section#testimonials .testi-section .position-section .position {
+        margin-top: 45px !important;
+    }
+    .copy-right{
+        height: 70px !important;
+    }
+    .copy-right .row{
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        grid-gap: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 530px) {
+    section#plan .plan-section .container .card {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    
+}

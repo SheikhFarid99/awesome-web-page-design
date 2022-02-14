@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/css/all.css">
+</head>
+
+<body>
+    <header id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="row">
+                <div class="left-side">
+                    <div class="menu-logo">
+                        <div class="logo">
+                            <img src="image/logo.png" alt="">
+                        </div>
+                        <label id="menu" class="menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                    </div>
+                </div>
+                <div id="right-side" class="right-side">
+                    <ul>
+                        <li class="close">
+                            <div id="close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <a href="#navbar">Home</a>
+                            <div class="line"></div>
+                        </li>
+                        <li class="list-item">
+                            <a href="#about">About Us</a>
+                            <div class="line"></div>
+                        </li>
+                        <li class="list-item">
+                            <a href="#service-section">Service</a>
+                            <div class="line"></div>
+                        </li>
+                        <li class="list-item">
+                            <a href="#contact">Contact</a>
+                            <div class="line"></div>
+                        </li>
+                        <li class="list-item">
+                            <a href="#team-section">Our Team</a>
+                            <div class="line"></div>
+                        </li>
+                        <li class="list-item">
+                            <a href="#plan">Our Plan</a>
+                            <div class="line"></div>
+                        </li>
+                        <li class="list-item">
+                            <a href="#testimonials">Testimonials</a>
+                            <div class="line"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="slider" class="slider-section">
+        <div class='slider'>
+            <div class="slide-inner">
+                <div id="slide" class="slide slide-active">
+                    <div class="image-text">
+                        <img src="image/5.png" alt="">
+                        <div class="text">
+                            <h1>slide 1</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide" class="slide">
+                    <div class="image-text">
+                        <img src="image/3.jpg" alt="">
+                        <div class="text">
+                            <h1>slide 2</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="slide" class="slide">
+                    <div class="image-text">
+                        <img src="image/2.png" alt="">
+                        <div class="text">
+                            <h1>slide 3</h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide" class="slide">
+                    <div class="image-text">
+                        <img src="image/1.jpg" alt="">
+                        <div class="text">
+                            <h1>slide 4</h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide" class="slide">
+                    <div class="image-text">
+                        <img src="image/6.jpg" alt="">
+                        <div class="text">
+                            <h1>slide 5</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ol id="lines" class="lines">
+            </ol>
+            <button onclick="pre()" class="left"><i class="fa-solid fa-angles-left"></i></button>
+            <button onclick="next()" class="right"><i class="fa-solid fa-angles-right"></i></button>
+        </div>
+    </section>
+    <section id='about'>
+        <div class="container">
+            <div class="about">
+                <div class="info">
+                    <h2>About Us</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC,
+                        making it over 2000 years old. Richard McClintock, a Latin professor
+                        at Hampden-Sydney College in Virginia, looked up one of the more obscure McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure making it
+                        over 2000 years old. Richard McClintock, a Latin professor
+                        at Hampden-Sydney College in Virginia, looked up one of the more obscure McClintock</p>
+                    <button class="btn">Read More</button>
+                </div>
+                <div class="skils">
+                    <div class="form-group">
+                        <label for="html">Html</label>
+                        <div id='html' value="95" class="progress">
+                            <div class="progress-bar">95%</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="css">Css</label>
+                        <div id='css' class="progress">
+                            <div style="width: 90%" class="progress-bar">90%</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="js">Java script</label>
+                        <div id='js' class="progress">
+                            <div style="width: 85%" class="progress-bar">85%</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="html">JQuery</label>
+                        <div id='jq' class="progress">
+                            <div style="width: 70%" class="progress-bar">70%</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="html">React</label>
+                        <div id='jq' class="progress">
+                            <div style="width: 90%" class="progress-bar">90%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id='service-section'>
+        <div class="service">
+            <div class="container">
+                <div class="title">
+                    <h2>Our Services</h2>
+                    <div class="center-line">
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="service-name">
+                            Database Design
+                        </div>
+                        <div class="des">
+                            <p> It has roots in a piece of classical Latin literature from 45 BC,
+                                making it over 2000 years old. Richard McClintock, a Latin professor
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="service-name">
+                            App Development
+                        </div>
+                        <div class="des">
+                            <p> It has roots in a piece of classical Latin literature from 45 BC,
+                                making it over 2000 years old. Richard McClintock, a Latin professor
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="service-name">
+                            Web Development
+                        </div>
+                        <div class="des">
+                            <p> It has roots in a piece of classical Latin literature from 45 BC,
+                                making it over 2000 years old. Richard McClintock, a Latin professor
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="service-name">
+                            Ui/Ux Design
+                        </div>
+                        <div class="des">
+                            <p> It has roots in a piece of classical Latin literature from 45 BC,
+                                making it over 2000 years old. Richard McClintock, a Latin professor
+                                at Hampden-Sydney </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id='team-section'>
+        <div class="our-team">
+            <div class="container">
+                <div class="title">
+                    <h2>Our Team</h2>
+                    <div class="center-line">
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="team-items">
+                    <div class="item">
+                        <div class="image">
+                            <img src="image/image2.jpeg" alt="">
+                            <div class="back-color"></div>
+                        </div>
+                        <div class="name">Sheikh Farid</div>
+                        <div class="position">Founder/CEO</div>
+                        <div class="des">Hampden-Sydney College in Virginia, looked up one of the more obscure</div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="image/image1.jpeg" alt="">
+                            <div class="back-color"></div>
+                        </div>
+                        <div class="name">Sheikh Farid</div>
+                        <div class="position">Founder/CEO</div>
+                        <div class="des">Hampden-Sydney College in Virginia, looked up one of the more obscure</div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="image/image3.jpeg" alt="">
+                            <div class="back-color"></div>
+                        </div>
+                        <div class="name">Sheikh Farid</div>
+                        <div class="position">Founder/CEO</div>
+                        <div class="des">Hampden-Sydney College in Virginia, looked up one of the more obscure</div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="image/image4.jpeg" alt="">
+                            <div class="back-color"></div>
+                        </div>
+                        <div class="name">Sheikh Farid</div>
+                        <div class="position">Founder/CEO</div>
+                        <div class="des">Hampden-Sydney College in Virginia, looked up one of the more obscure</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="domain">
+        <div class="domain">
+            <h2>Get free domaun name and web hosting</h2>
+            <button class="contact_btn"><a href="">Contact</a></button>
+        </div>
+    </section>
+    <section id="plan">
+        <div class="plan-section">
+            <div class="container">
+                <div class="title">
+                    <h2>Price Plan</h2>
+                    <div class="center-line">
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-item">
+                        <div class="plan-title">
+                            <h2>FREE</h2>
+                            <div class="time">
+                                <span>$0/</span>
+                                <p>month</p>
+                            </div>
+                        </div>
+                        <div class="plan-details">
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>5GB Space</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>10GB Bandwidth</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle "></i>
+                                <span>15 Email Account</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle"></i>
+                                <span>Unlimited Domain</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle"></i>
+                                <span>Unlimited Support</span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button>Join Free</button>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="plan-title">
+                            <h2>STARTUP</h2>
+                            <div class="time">
+                                <span>$10/</span>
+                                <p>month</p>
+                            </div>
+                        </div>
+                        <div class="plan-details">
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>5GB Space</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>10GB Bandwidth</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>15 Email Account</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle"></i>
+                                <span>Unlimited Domain</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle"></i>
+                                <span>Unlimited Support</span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="plan-title">
+                            <h2>Business</h2>
+                            <div class="time">
+                                <span>$50/</span>
+                                <p>month</p>
+                            </div>
+                        </div>
+                        <div class="plan-details">
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>5GB Space</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>10GB Bandwidth</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>15 Email Account</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>Unlimited Domain</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle"></i>
+                                <span>Unlimited Support</span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="plan-title">
+                            <h2>Advenced</h2>
+                            <div class="time">
+                                <span>$100/</span>
+                                <p>month</p>
+                            </div>
+                        </div>
+                        <div class="plan-details">
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>5GB Space</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>10GB Bandwidth</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>15 Email Account</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>Unlimited Domain</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-check-circle access"></i>
+                                <span>Unlimited Support</span>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="testi-section">
+            <div class="container">
+                <div class="title">
+                    <h2>Testimonials</h2>
+                    <div class="center-line">
+                        <div class="line"></div>
+                    </div>
+                    <p>Please subscribe my youtube channel</p>
+                </div>
+                <div class="position-section">
+                    <div class="position">
+                        <div class="image">
+                            <img src="image/image5.jpeg" alt="">
+                        </div>
+                        <blockquote>It has roots in a piece of classical Latin literature from 45 BC,
+                            making it over 2000 years old. Richard McClintock, a Latin professor roots in a piece of
+                            classical Latin literature</blockquote>
+                        <h3>Sheikh Farid</h3>
+                        <span>Co-Founder</span>
+                    </div>
+                    <div class="position">
+                        <div class="image">
+                            <img src="image/profile.jpg" alt="">
+                        </div>
+                        <blockquote>It has roots in a piece of classical Latin literature from 45 BC,
+                            making it over 2000 years old. Richard McClintock, a Latin professor roots in a piece of
+                            classical Latin literature</blockquote>
+                        <h3>Anamul Islam</h3>
+                        <span>Manager</span>
+                    </div>
+                    <div class="position">
+                        <div class="image">
+                            <img src="image/image6.jpeg" alt="">
+                        </div>
+                        <blockquote>It has roots in a piece of classical Latin literature from 45 BC,
+                            making it over 2000 years old. Richard McClintock, a Latin professor roots in a piece of
+                            classical Latin literature</blockquote>
+                        <h3>Sakil Islam</h3>
+                        <span>Founder/CEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-section">
+            <div class="container">
+                <div class="title">
+                    <h2>Contact Us</h2>
+                    <div class="center-line">
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="contact_form-address">
+                    <div class="contact_form">
+                        <div class="form">
+                            <input type="text" placeholder="Your name" class="form-control">
+                            <input type="text" placeholder="Your number" class="form-control">
+                            <input type="Email" placeholder="Your email" class="form-control">
+                            <textarea placeholder="Your message" name="" id="" cols="30" rows="10"></textarea>
+                            <button class="contact-btn">Submit</button>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <div class="form-group">
+                            <strong>Address: </strong>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>XYZ Rode , Dhaka</span>
+                        </div>
+                        <div class="form-group">
+                            <strong>Phone: </strong>
+                            <i class="fa-solid fa-at"></i>
+                            <span>+880132426434</span>
+                        </div>
+                        <div class="form-group">
+                            <strong>Email: </strong>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>sheikhfarid@gmail.com</span>
+                        </div>
+                        <div class="form-group">
+                            <strong>Social: </strong>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-google"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <strong>Created by</strong>
+                        <a href="">Sheikh farid</a>
+                    </ul>
+                    <ul>
+                        <li><a href="#navbar">home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">services</a></li>
+                        <li><a href="">our plan</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
