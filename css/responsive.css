@@ -49,7 +49,8 @@
         height: 30px !important;
         color: #fff !important;
     }
-    .navbar .nav-container .right-side ul li a{
+
+    .navbar .nav-container .right-side ul li a {
         color: #fff !important;
     }
 }
@@ -74,13 +75,16 @@
     section#team-section .our-team .item .image {
         height: 250px !important;
     }
+
     section#plan .plan-section .container .card {
         grid-template-columns: repeat(2, 1fr) !important;
     }
+
     section#contact .contact-section .contact_form-address {
         grid-template-columns: repeat(1, 1fr) !important;
     }
 }
+
 @media only screen and (max-width: 768px) {
     section#about .about {
         display: grid;
@@ -101,22 +105,28 @@
     section#team-section .our-team .item .image {
         height: 380px !important;
     }
+
     section#plan .plan-section .container .card {
         grid-template-columns: repeat(2, 1fr) !important;
     }
+
     section#contact .contact-section .contact_form-address {
         grid-template-columns: repeat(1, 1fr) !important;
     }
+
     section#testimonials .testi-section .position-section {
         grid-template-columns: repeat(1, 1fr) !important;
     }
+
     section#testimonials .testi-section .position-section .position {
         margin-top: 45px !important;
     }
-    .copy-right{
+
+    .copy-right {
         height: 70px !important;
     }
-    .copy-right .row{
+
+    .copy-right .row {
         flex-direction: column;
         justify-content: center !important;
         align-items: center !important;
@@ -129,17 +139,16 @@
     section#plan .plan-section .container .card {
         grid-template-columns: repeat(1, 1fr) !important;
     }
+
     section#team-section .our-team .item .image {
         height: 230px !important;
     }
-    
-}
-@media only screen and (max-width: 380px) {
-    .container{
+
+    .container {
         width: 88% !important;
     }
-    .container .contact_form-address{
-        padding: 0px 0px !important; 
+
+    .container .contact_form-address {
+        padding: 0px 0px !important;
     }
-    
 }
