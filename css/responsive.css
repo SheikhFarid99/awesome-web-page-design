@@ -136,6 +136,9 @@
 }
 
 @media only screen and (max-width: 580px) {
+    section#slider{
+        height: calc(100vh - 650px) !important;
+    }
     section#plan .plan-section .container .card {
         grid-template-columns: repeat(1, 1fr) !important;
     }
