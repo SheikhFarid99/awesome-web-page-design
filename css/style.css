@@ -216,7 +216,7 @@ section#about .about .skils .form-group .progress .progress-bar {
 }
 
 section#service-section {
-    background-image: url('/image/5.png');
+    background-image: url('../image/5.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -399,7 +399,7 @@ section#team-section .our-team .item .des {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/image/6.jpg');
+    background-image: url('../image/6.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
