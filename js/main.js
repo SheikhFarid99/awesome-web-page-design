@@ -11,6 +11,4 @@ close.addEventListener('click', () => {
     if (classAdd) {
         classAdd.classList.remove('show')
     }
-})
-
-// create slider----------------
+});

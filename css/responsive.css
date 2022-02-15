@@ -21,8 +21,7 @@
         position: fixed;
         right: 0;
         top: 0;
-        background-color: rgba(43, 46, 46, 0.411);
-        width: 100% !important;
+        width: 250px !important;
         height: 100vh !important;
         display: flex;
         justify-content: flex-end;
@@ -39,6 +38,7 @@
         background-color: rgba(12, 29, 83, 0.671);
         padding: 15px 10px;
         position: fixed;
+        z-index: 9999;
     }
 
     .navbar .nav-container .right-side ul li.close {
